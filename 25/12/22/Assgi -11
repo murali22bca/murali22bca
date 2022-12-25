@@ -1,0 +1,15 @@
+n=int(input())
+j=2
+sum=0
+while(j<n):
+    i=2
+    temp=0
+    while(i<j):
+        if(j%i==0):
+            temp=1
+            break
+        i=i+1
+    if(temp==0):
+        sum+=i
+    j=j+1
+print('sum of prime:',sum)
