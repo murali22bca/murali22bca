@@ -1,0 +1,19 @@
+s={}
+n=int(input("enter number:"))
+for i in range(1,n+1):
+    l=[]
+    sno=int(input("enter std number:"))
+    sname=input("enter name:")
+    group=input("enter group:")
+    college=input("enter college:")
+    phno=int(input("enter phone number:"))
+    l.append(sname)
+    l.append(group)
+    l.append(college)
+    l.append(phno)
+    s[sno]=l
+x=int(input("enter sno:"))
+print("sname:",s[x][0])
+print("group:",s[x][1])
+print("college:",s[x][2])
+print("phno:",s[x][3])
