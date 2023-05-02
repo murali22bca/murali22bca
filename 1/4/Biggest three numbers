@@ -1,0 +1,9 @@
+a=10
+b=20
+c=30
+if a>b and a>c:
+    print(a,'it is a greast')
+elif b>a and b>c:
+    print(b,'it is a greast')
+else:
+    print(c,'it is a greast')
